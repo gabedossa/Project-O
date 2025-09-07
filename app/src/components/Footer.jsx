@@ -10,13 +10,13 @@ export default function Footer() {
           </div>
           <div>
             <h4>Atendimento</h4>
-            <p>WhatsApp: (65) 0000-0000</p>
-            <p>E-mail: contato@orion.com.br</p>
+            <p>WhatsApp: (65)3023-1011</p>
           </div>
+
           <div>
             <h4>Endereços</h4>
-            <p>Cuiabá – Rua Presidente Hermes da Fonseca, 000</p>
-            <p>Cáceres – Av. Talhamares, 000</p>
+            <p>Cuiabá – R. Pres. Hermes da Fonseca, Quilombo, Cuiabá - MT, 78043-398</p>
+            <p>Cáceres – Av. Talhamares, 943, Santa Izabel, Cáceres - MT, 78.205-730</p>
           </div>
         </div>
       </div>

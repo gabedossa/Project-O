@@ -6,7 +6,6 @@ export default function Header() {
       <div className="container inner">
         <Link to="/" className="brand" aria-label="Orion - Início">
           <span className="logo" aria-hidden="true"></span>
-          <span>ORION</span>
         </Link>
         <nav className="nav" aria-label="Menu principal">
           <NavLink to="/" end>Início</NavLink>
