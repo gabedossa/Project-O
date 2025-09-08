@@ -39,7 +39,7 @@ export default function Home() {
                 preservação dos recursos hídricos.
               </p>
             </ServiceCard>
-            <ServiceCard icon={'../../imagens/icones/factoryA.svg'} title="Osmose Reversa/Inversa">
+            <ServiceCard icon={'../../imagens/icones/scienceA.svg'} title="Osmose Reversa/Inversa">
               <p>
                 A osmose reversa é uma tecnologia de purificação de água que
                 utiliza membranas semipermeáveis para remover sais, impurezas e
@@ -54,7 +54,7 @@ export default function Home() {
         <div className="container">
           <h2>Area de atuação</h2>
           <div className="cards">
-            <ServiceCard title="Laboratórial">
+            <ServiceCard icon={'../../imagens/icones/scienceA.svg'} title="Laboratórial">
               <p>
                 Nos laboratórios analíticos, o controle de qualidade da água é
                 fundamental. Utilizada como reagente químico, ela deve conter
@@ -62,7 +62,7 @@ export default function Home() {
                 água que sua família está bebendo.
               </p>
             </ServiceCard>
-            <ServiceCard title="Indústria">
+            <ServiceCard icon={'../../imagens/icones/factoryA.svg'} title="Indústria">
               <p>
                 Nem sempre uma água considerada potável para consumo humano e
                 animal pode servir para fins industriais, o que requer uma
