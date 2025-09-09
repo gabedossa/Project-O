@@ -1,4 +1,7 @@
 :root {
+  /*imports */
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
   /* Brand */
   --primary: #00c2d1;
   --primary-700: #0b3640;
@@ -121,6 +124,18 @@ a {
   color: var(--primary-700);
 }
 
+.button{
+background-color: #00c2d1;
+justify-content: center;
+
+}
+.button img{
+width: 25px;
+margin-right: 5px;
+margin-left: 5px;
+
+}
+
 .cta {
   display: inline-flex;
   align-items: center;
@@ -129,15 +144,11 @@ a {
   background: var(--primary);
   color: var(--bg);
   border: 0;
-  border-radius: 999px;
-  padding: 10px 16px;
+  padding: 10px ;
   font-weight: 600;
   cursor: pointer;
 }
-.cta:hover{
-  background: var(--muted);
-  color: var(--bg)
-}
+
 .cta:focus {
   outline: 2px solid var(--primary-700);
   outline-offset: 2px;

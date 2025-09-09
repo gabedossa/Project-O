@@ -1,5 +1,5 @@
 import { NavLink, Link } from 'react-router-dom'
-
+import Button from '../components/Button/button.jsx';
 export default function Header() {
   return (
     <header className="header" role="banner">
@@ -14,9 +14,7 @@ export default function Header() {
           <NavLink to="/produtos">Produtos</NavLink>
           <NavLink to="/contato">Contato</NavLink>
         </nav>
-        <a className="cta" href="https://wa.me/+556530231011" target="_blank" rel="noopener">
-          WhatsApp
-        </a>
+        <Button icon={'../../imagens/icones/claro/whatsappbranco.svg'} link={'https://wa.me/+556530231011'} title="Whatsapp" ></Button>
       </div>
     </header>
   )

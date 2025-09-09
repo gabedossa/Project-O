@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./HeroStyle.css";
 import ServicosHero from "../servicos/ServicosHero";
+import Button from "../Button/button";
 
 export default function Hero() {
   return (
@@ -18,17 +19,12 @@ export default function Hero() {
               Osmose Reversa, Filtros e mais.
             </p>
             <div style={{ display: "flex", gap: 12 }}>
-              <Link className="cta" to="/servicos">
-                Nossos Serviços
-              </Link>
-              <a
-                className="cta"
-                href="https://wa.me/+556530231011"
-                target="_blank"
-                rel="noopener"
-              >
-                Fale no WhatsApp
-              </a>
+              <div className="whatsBtn">
+                <Button icon={'../../imagens/icones/claro/casaBranco.svg'} link={'/servicos'} title='Nossos Serviços' ></Button>
+              </div>
+              <div className="whatsBtn">
+                <Button icon={'../../imagens/icones/claro/whatsappbranco.svg'} link={'https://wa.me/+556530231011'} title='WhatsApp' ></Button>
+              </div>
             </div>
           </div>
         </div>

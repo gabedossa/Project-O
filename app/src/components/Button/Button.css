@@ -1,0 +1,18 @@
+.button{
+display: flex;
+background-color: #00c2d1;
+justify-content: center;
+border-radius: 999px;
+color: #FFF;
+padding: 10px;
+}
+.button img{
+width: 25px;
+margin-right: 5px;
+margin-left: 10px;
+}
+
+a{
+    background-color: none;
+    border-radius: 999px;
+}

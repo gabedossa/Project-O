@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@flaticon/flaticon-uicons": "^3.3.1",
     "@react-google-maps/api": "^2.20.7",
     "@vis.gl/react-google-maps": "^1.5.5",
     "react": "^18.3.1",
