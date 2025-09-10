@@ -6,22 +6,22 @@ import CardInfo from "../components/Card_info/CardInfo.jsx";
 
 export default function Home() {
   let textInfo = [{
-    imgInfo: `../../imagens/icones/factoryA.svg`,
-    title: 'Estações de Tratamento de Água (ETAs)',
+    imgInfo: `../../imagens/icones/water.svg`,
+    title: 'Estações de Tratamento de Água - ETA',
     info: 'As Estações de Tratamento de Água (ETAs) têm como objetivo transformar a água bruta em água potável, própria para o consumo humano. O processo envolve etapas de clarificação, filtração e desinfecção, garantindo qualidade, segurança e conformidade com as normas de saúde.',
   },
   {
-    imgInfo: `../../imagens/icones/factoryA.svg`,
-    title: 'Estações de Tratamento de Água (ETAs)',
-    info:'As Estações de Tratamento de Efluentes (ETEs) reduzem a carga de poluentes lançados no meio ambiente. Utilizadas em indústrias e municípios, possibilitam o tratamento físico, químico e biológico dos efluentes, assegurando conformidade legal e preservação dos recursos hídricos.'
+    imgInfo: `../../imagens/icones/hand-holding-seeding.svg`,
+    title: 'Estações de Tratamento de Efluentes – ETE',
+    info:'A estação de tratamento de efluentes existem para reduzir a quantidade de poluentes de um efluente. No país, existem diversas regiões com estação de tratamento de efluentes.'
   },
   {
     imgInfo: `../../imagens/icones/factoryA.svg`,
-    title: 'Estações de Tratamento de Água (ETAs)',
+    title: 'Osmose Reversa/Inversa',
     info: 'A osmose reversa é uma tecnologia de purificação de água que utiliza membranas semipermeáveis para remover sais, impurezas e contaminantes. É amplamente aplicada em indústrias e sistemas de reuso, garantindo água de alta qualidade e sustentabilidade no processo.'
   },
   {
-    imgInfo: `../../imagens/icones/factoryA.svg`,
+    imgInfo: `../../imagens/icones/test-tube.svg`,
     title: 'Laboratorial',
     info: 'Nos laboratórios analíticos, o controle de qualidade da água é fundamental. Utilizada como reagente químico, ela deve conter uma quantidade mínima de contaminantes. Melhore a qualidade da água que sua família está bebendo.'
   },
