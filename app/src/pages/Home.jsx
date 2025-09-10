@@ -3,6 +3,7 @@ import Hero from "../components/Hero/Hero.jsx";
 import ServiceCard from "../components/ServiceCard.jsx";
 import MapCard from "../components/MapCard.jsx";
 import CardInfo from "../components/Card_info/CardInfo.jsx";
+import SectionTitle from "../components/SectionTitle/SectionTitle.jsx";
 
 export default function Home() {
   let textInfo = [{
@@ -48,7 +49,7 @@ export default function Home() {
 
       <section className="section">
         <div className="container">
-          <h2>Serviços</h2>
+          <SectionTitle SectionTitle='Serviços' ></SectionTitle>
           <div className="cards">
               <CardInfo imagem={textInfo[0].imgInfo} title={textInfo[0].title} texto={textInfo[0].info}></CardInfo>
               <CardInfo imagem={textInfo[1].imgInfo} title={textInfo[1].title} texto={textInfo[1].info}></CardInfo>
@@ -57,7 +58,7 @@ export default function Home() {
         </div>
 
         <div className="container">
-          <h2>Area de atuação</h2>
+          <SectionTitle SectionTitle='Area de atuação' ></SectionTitle>
             <div className="cards">
               <CardInfo imagem={textInfo[3].imgInfo} title={textInfo[3].title} texto={textInfo[3].info}></CardInfo>
               <CardInfo imagem={textInfo[4].imgInfo} title={textInfo[4].title} texto={textInfo[4].info}></CardInfo>
@@ -66,7 +67,7 @@ export default function Home() {
       </section>
       <section className="section">
         <div className="container">
-          <h2>Localização</h2>
+          <SectionTitle SectionTitle='Localização' ></SectionTitle>
           <MapCard />
         </div>
       </section>
