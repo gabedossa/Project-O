@@ -1,0 +1,29 @@
+.CardSobreImagem{
+    width: 100%;
+    display: flex;
+}
+
+.ImgSobreCuiaba{
+    width: 500px;
+    height: 250px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    background-image: url('../../../Imagens/OrionCuiabáFrente.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.legendaImg{
+    padding: 8px;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Texto_sobre{
+    width: 500px;
+}
