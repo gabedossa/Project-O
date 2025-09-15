@@ -26,14 +26,6 @@ export default function CardSobreImagem() {
           campo e rigor técnico para garantir desempenho e segurança em cada
           sistema.
         </p>
-        <br />
-        <h2>Missão</h2>
-        <p>
-          Projetar e implantar soluções sustentáveis para o tratamento
-          responsável de água e efluentes, otimizando processos, viabilizando o
-          reuso e assegurando conformidade às normas — com desempenho mensurável
-          e segurança operacional.
-        </p>
       </div>
     </div>
   );

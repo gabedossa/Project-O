@@ -1,0 +1,29 @@
+.valoresContainer{
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;  
+}
+.sectionContainer{
+    width: 49%;
+    padding: 10px 15px;
+    height: 200px;
+    background-color: #EEE;
+}
+.sectionContainer:nth-child(1){
+    margin-right: 10px;
+}
+
+.sectionContainer p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.alignTitle{
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.alignTitle img{
+    margin-right: 10px;
+}

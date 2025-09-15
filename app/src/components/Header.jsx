@@ -11,7 +11,6 @@ export default function Header() {
           <NavLink to="/" end>Início</NavLink>
           <NavLink to="/empresa">Empresa</NavLink>
           <NavLink to="/servicos">Serviços</NavLink>
-          <NavLink to="/produtos">Produtos</NavLink>
           <NavLink to="/contato">Contato</NavLink>
         </nav>
         <Button icon={'../../imagens/icones/claro/whatsappbranco.svg'} link={'https://wa.me/+556530231011'} title="Whatsapp" ></Button>

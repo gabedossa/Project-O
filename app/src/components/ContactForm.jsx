@@ -30,7 +30,7 @@ export default function ContactForm() {
         <input type="email" name="email" placeholder="Seu e-mail" required />
         <input name="phone" placeholder="Telefone/WhatsApp" />
         <textarea name="message" placeholder="Mensagem" rows={5} required></textarea>
-        <button className="cta" type="submit" disabled={status==='sending'}>
+        <button className="enviarMensagem" type="submit" disabled={status==='sending'}>
           {status==='sending' ? 'Enviando…' : 'Enviar mensagem'}
         </button>
         {status==='sent' && <p style={{color:'green'}}>Mensagem enviada! Em breve entraremos em contato.</p>}

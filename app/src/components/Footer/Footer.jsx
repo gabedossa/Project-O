@@ -1,3 +1,4 @@
+import'./Footer.css';
 export default function Footer() {
   return (
     <footer className="footer" role="contentinfo">
@@ -17,6 +18,13 @@ export default function Footer() {
             <h4>Endereços</h4>
             <p>Cuiabá – R. Pres. Hermes da Fonseca, Quilombo, Cuiabá - MT, 78043-398</p>
             <p>Cáceres – Av. Talhamares, 943, Santa Izabel, Cáceres - MT, 78.205-730</p>
+          </div>
+          <div>
+            <h4>Redes Sociais</h4>
+            <div className="redeIconContainer">
+            <div className='socialIcon'><a href='https://www.facebook.com/orionaguaquimica?locale=pt_BR'><img src='../../Imagens/icones/Facebook.svg'  /></a></div>
+            <div className='socialIcon'><a href=''><img src='../../Imagens/icones/instagram.svg' /></a></div>
+            </div>
           </div>
         </div>
       </div>

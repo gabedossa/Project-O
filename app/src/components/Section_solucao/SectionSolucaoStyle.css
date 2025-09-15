@@ -1,0 +1,22 @@
+.containerSolucoes { /* se precisar organizar cards */
+  display: grid; 
+  gap: 20px;
+}
+
+.solucoes-card{
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.solucoes-card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block; 
+}
+
+.TituloSolucoes{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 8px 0 4px;
+}

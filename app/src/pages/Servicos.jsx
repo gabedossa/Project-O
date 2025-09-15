@@ -1,40 +1,97 @@
-import { Helmet } from 'react-helmet-async'
-import ServiceCard from '../components/ServiceCard.jsx'
+import { Helmet } from "react-helmet-async";
+import ServiceCard from "../components/ServiceCard.jsx";
+import SectionTitle from "../components/SectionTitle/SectionTitle.jsx";
+import CardInfo from "../components/Card_info/CardInfo.jsx";
+import ServicosHero from "../components/Servico_hero/ServicosHero.jsx";
 
 export default function Servicos() {
+  let textInfo = [
+    {
+      imgInfo: `../imagens/icones/water.svg`,
+      title: "Estação de Tratamento de Água",
+      info: "Transformamos água bruta em potável, própria para o consumo humano. Nossas ETAs seguem rigorosos processos de clarificação, filtração e desinfecção, garantindo qualidade, segurança e conformidade com as normas de saúde.",
+    },
+    {
+      imgInfo: `../imagens/icones/hand-holding-seeding.svg`,
+      title: "Estação de Tratamento de Efluentes",
+      info: "Desenvolvemos soluções completas para o tratamento de efluentes, priorizando o reuso e a sustentabilidade. Nossos projetos se adaptam às necessidades de cada cliente, garantindo eficiência, economia e respeito ao meio ambiente.",
+    },
+    {
+      imgInfo: `../imagens/icones/factoryA.svg`,
+      title: "Osmose Reversa/Inversa",
+      info: "Aplicamos tecnologia de membranas semipermeáveis para purificação da água, removendo sais, impurezas e contaminantes. A osmose reversa é ideal para sistemas de reuso, entregando água de alta qualidade e sustentabilidade.",
+    },
+    {
+      imgInfo: `../imagens/icones/test-tube.svg`,
+      title: "Reuso de água",
+      info: "Oferecemos tecnologias que possibilitam reduzir consumo e custos através do reuso. Nossas soluções unem eficiência e sustentabilidade, atendendo a indústrias e empreendimentos que buscam responsabilidade ambiental.",
+    },
+    {
+      imgInfo: `../imagens/icones/filter.svg`,
+      title: "Filtros",
+      info: "Projetamos sistemas de filtragem sob medida para otimizar processos e reduzir custos. Com foco em eficiência e sustentabilidade, nossos filtros contribuem para o melhor aproveitamento da água e menor impacto ambiental.",
+    },
+    {
+      imgInfo: `../../imagens/icones/factoryA.svg`,
+      title: "Assistência Técnica",
+      info: "Garantimos suporte especializado em todas as fases: start-up, auditorias e operação assistida. Nossa equipe técnica assegura a máxima performance dos sistemas, com confiabilidade e redução de custos operacionais.",
+    },
+  ];
+
   return (
     <>
       <Helmet>
         <title>Serviços | Orion Água e Química</title>
-        <meta name="description" content="ETA, ETE, Osmose Reversa, Reuso de Água e consultoria técnica especializada." />
+        <meta
+          name="description"
+          content="ETA, ETE, Osmose Reversa, Reuso de Água e consultoria técnica especializada."
+        />
         <link rel="canonical" href="https://www.seudominio.com.br/servicos" />
       </Helmet>
+      <ServicosHero></ServicosHero>
 
-      <section className="section">
+      <section className="section bottom">
         <div className="container">
-          <h2>Nossas soluções</h2>
+          <SectionTitle SectionTitle="Nossas Soluções"></SectionTitle>
           <div className="cards">
-            <ServiceCard title="ETA – Estação de Tratamento de Água">
-              Dimensionamento, projeto, implantação e operação.
-            </ServiceCard>
-            <ServiceCard title="ETE – Estação de Tratamento de Efluentes">
-              Tecnologias adequadas ao seu processo com foco em reuso.
-            </ServiceCard>
-            <ServiceCard title="Osmose Reversa">
-              Sistemas compactos ou de grande porte com alta eficiência.
-            </ServiceCard>
-            <ServiceCard title="Reuso de Água">
-              Soluções para reduzir consumo e custos com sustentabilidade.
-            </ServiceCard>
-            <ServiceCard title="Filtros e Mídias">
-              Carvão ativado, areia, cartuchos e mais.
-            </ServiceCard>
-            <ServiceCard title="Assistência Técnica">
-              Start-up, auditorias e operação assistida.
-            </ServiceCard>
+            <CardInfo
+              imagem={textInfo[0].imgInfo}
+              title={textInfo[0].title}
+              texto={textInfo[0].info}
+            ></CardInfo>
+
+            <CardInfo
+              imagem={textInfo[1].imgInfo}
+              title={textInfo[1].title}
+              texto={textInfo[1].info}
+            ></CardInfo>
+
+            <CardInfo
+              imagem={textInfo[2].imgInfo}
+              title={textInfo[2].title}
+              texto={textInfo[2].info}
+            ></CardInfo>
+
+            <CardInfo
+              imagem={textInfo[3].imgInfo}
+              title={textInfo[3].title}
+              texto={textInfo[3].info}
+            ></CardInfo>
+
+            <CardInfo
+              imagem={textInfo[4].imgInfo}
+              title={textInfo[4].title}
+              texto={textInfo[4].info}
+            ></CardInfo>
+
+            <CardInfo
+              imagem={textInfo[5].imgInfo}
+              title={textInfo[5].title}
+              texto={textInfo[5].info}
+            ></CardInfo>
           </div>
         </div>
       </section>
     </>
-  )
+  );
 }

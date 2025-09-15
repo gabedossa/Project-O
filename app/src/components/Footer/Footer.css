@@ -1,0 +1,9 @@
+.redeIconContainer{
+    display: flex;
+}
+.socialIcon img{
+    margin:10px;
+}
+.socialIcon img:hover{
+    cursor: pointer;
+}
