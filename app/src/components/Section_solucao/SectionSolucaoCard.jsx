@@ -7,7 +7,7 @@ export default function SectionSolucaoCard({imagem, titulo, texto}) {
                     <div className="soluctionCard">
                         <img src={imagem}></img>
                         <p className='TituloSolucoes'>{titulo}</p>
-                        <p>{texto}</p>
+                        <p className='TextoSolucao'>{texto}</p>
                     </div>
                 </div>
             </div>

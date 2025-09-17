@@ -15,7 +15,7 @@ export default function Empresa() {
         />
         <link rel="canonical" href="https://www.seudominio.com.br/empresa" />
       </Helmet>
-      {/* Section Sobre a */}
+
       <section className="section">
         <div className="container">
           <SectionTitle SectionTitle="Sobre a Empresa"></SectionTitle>
@@ -23,7 +23,6 @@ export default function Empresa() {
         </div>
       </section>
 
-      {/* Este é um comentário em JSX */}
       <section className="section">
         <div className="container">
           <SectionTitle SectionTitle="Missao e valores"></SectionTitle>
@@ -31,11 +30,10 @@ export default function Empresa() {
         </div>
       </section>
 
-      {/* Este é um comentário em JSX */}
       <section className="section">
         <div className="container">
             <SectionTitle SectionTitle="Soluções"></SectionTitle>
-          <div className="flexContainer">
+          <div className="flexContainerSoluction">
             <SectionSolucaoCard
               imagem={"../../imagens/treinamento_equipe.avif"}
               titulo={"Consultoria e Treinamento."}

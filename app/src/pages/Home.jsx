@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Hero from "../components/Hero/Hero.jsx";
 import ServiceCard from "../components/ServiceCard.jsx";
-import MapCard from "../components/MapCard.jsx";
+import MapCard from "../components/MapCard/MapCard.jsx";
 import CardInfo from "../components/Card_info/CardInfo.jsx";
 import SectionTitle from "../components/SectionTitle/SectionTitle.jsx";
 

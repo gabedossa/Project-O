@@ -322,4 +322,9 @@ a {
   .blog-list {
     grid-template-columns: 1fr;
   }
+  .mapCard {
+    display: block;
+    width: 100%;
+  }
+
 }

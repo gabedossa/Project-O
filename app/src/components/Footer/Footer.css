@@ -1,9 +1,24 @@
-.redeIconContainer{
-    display: flex;
+.redeIconContainer {
+  display: flex;
+  gap: 16px; 
+  align-items: center;
 }
-.socialIcon img{
-    margin:10px;
+
+.socialIcon {
+ 
+  display: block; 
+  transition: transform 0.2s ease-in-out; 
 }
-.socialIcon img:hover{
-    cursor: pointer;
+
+.socialIcon:hover {
+  cursor: pointer;
+  transform: scale(1.15); 
+  opacity: 0.9; 
+}
+
+.socialIcon img {
+  display: block; 
+  margin-top: 5px;
+  width: 32px; 
+  height: 32px;
 }
