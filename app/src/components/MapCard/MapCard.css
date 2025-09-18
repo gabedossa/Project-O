@@ -1,49 +1,51 @@
 .mapCard {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 16px;
+  max-width: 1200px;
+  margin-bottom: 16px;
   width: 100%;
-  margin-bottom: 15px;
-  background-color: #eee;
-  padding: 10px;
-  border-radius: 8px; 
+  background-color: #ddd; 
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-1);
+  overflow: hidden;
 }
 
 .mapaLocal {
-  flex: 1;
+  position: relative;
   height: 350px; 
-  border-radius: 8px;
-  overflow: hidden; 
-  background-color: #ddd;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .LocalName {
   position: absolute;
-  top: 8px;
-  left: 8px;
-  background: rgba(43, 43, 43, 0.85);
-  color: #fff;
-  padding: 4px 10px;
-  border-radius: 6px;
-  font-weight: bold;
-  font-size: clamp(12px, 2.5vw, 14px);
+  top: 12px;
+  left: 12px;
+  background: var(--primary-700);
+  color: var(--bg);
+  padding: 6px 14px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: clamp(12px, 1.8vw, 16px);
   z-index: 10;
   pointer-events: none;
-  white-space: nowrap;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 480px) {
-  .mapCard {
-    display: block;
+.mapaLocal:nth-child(1) {
+    margin-right: 12px;
   }
 
-  .LocalName {
-    font-size: clamp(11px, 3vw, 13px);
-    padding: 3px 8px;
-    top: 6px;
-    left: 6px;
+
+@media (max-width: 640px) {
+  .mapCard {
+    grid-template-columns: 1fr;
   }
 
   .mapaLocal {
-    min-height: 130px;
+    margin: 8px 0;
+    height: clamp(350px, 35vh, 280px);
   }
 }
