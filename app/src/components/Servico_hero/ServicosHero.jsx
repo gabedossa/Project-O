@@ -13,7 +13,7 @@ const imagens = [
     imagem: "../../imagens/Abrandador_01.jpg",
     titulo: "Abrandadores",
     alt: "Sistema de tratamento, Abrandador",
-    texto: "Diga Adeus aos Problemas da Água Dura. A água que sua empresa usa pode estar comprometendo a vida útil de tubulações, caldeiras e máquinas. Nossos abrandadores eliminam minerais como cálcio e magnésio, garantindo a proteção dos seus equipamentos e a eficiência máxima da sua operação. Mais durabilidade, menos custos de manutenção.",
+    texto: "Nossos abrandadores eliminam minerais como cálcio e magnésio, garantindo a proteção dos seus equipamentos e a eficiência máxima da sua operação.",
   },
   {
     imagem: "../../imagens/filtro_carvao_ativado_01.jpg",
