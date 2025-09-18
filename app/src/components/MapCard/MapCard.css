@@ -44,8 +44,12 @@
     grid-template-columns: 1fr;
   }
 
+  .mapaLocal:nth-child(1) {
+    margin-right: 0px;
+  }
+
   .mapaLocal {
-    margin: 8px 0;
+    margin: 4px 0;
     height: clamp(350px, 35vh, 280px);
   }
 }
