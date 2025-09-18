@@ -4,8 +4,8 @@ import '../Button/Button.css';
 export default function Button({icon, link, title}) {
   return (
       <div className="button">
-        <img src={icon}></img>
         <a className="cta" href={link} rel="noopener">
+        <img src={icon}></img>
           {title}
         </a>
       </div>

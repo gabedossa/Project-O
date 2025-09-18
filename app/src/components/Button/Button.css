@@ -1,19 +1,26 @@
-.button{
-display: flex;
-background-color: #00c2d1;
-justify-content: center;
-align-items: center;
-border-radius: 999px;
-color: #FFF;
-padding: 10px;
+.button {
+  display: flex;
+  background-color: #00c2d1;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  color: #fff;
+  padding: 10px;
 }
-.button img{
-width: 25px;
-margin-right: 5px;
-margin-left: 10px;
+.button img {
+  width: 25px;
+  margin-right: 5px;
+  margin-left: 10px;
 }
 
-a{
-    background-color: none;
-    border-radius: 999px;
+a {
+  background-color: none;
+  border-radius: 999px;
+}
+
+@media (max-width: 560px) {
+  .button {
+    margin-top:15px ;
+    margin-bottom:15px ;
+  }
 }
