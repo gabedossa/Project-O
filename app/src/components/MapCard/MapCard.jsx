@@ -1,6 +1,5 @@
 import MapCardGoogle from "../Google_Maps/MapsGoogle";
-import "./MapCard.css"
-
+import"./MapCard.css";
 export default function MapCard() {
   const Cuiaba = { lat: -33.8688, lng: 151.2195  }
   const Caceres = { lat: -33.8688, lng: 151.2195  }
