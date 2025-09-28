@@ -22,8 +22,8 @@ export default function Contato() {
               <p>
                 Preencha o formulário e retornaremos o contato. Se preferir,
                 chame no WhatsApp.
-                OBS: O Contato por e-mail está emporariamente indisponível.
               </p>
+              <strong>OBS: O Contato por e-mail está emporariamente indisponível.</strong>
               <ContactForm />
             </div>
           </div>
