@@ -39,7 +39,7 @@
 .mainBg{
     width: 100%;
     position: relative;
-    background-image: url('../../../Imagens/Torre_de_agua.jpg');
+    background-image: url('../../../../dist/assets/Imagens/Torre_de_agua.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
