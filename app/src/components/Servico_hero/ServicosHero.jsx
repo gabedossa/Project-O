@@ -4,19 +4,19 @@ import "./Servicos_hero.css";
 // Array de imagens para o carrossel.
 const imagens = [
   {
-    imagem: "../../imagens/Torre_de_agua.jpg",
+    imagem: "../../../../dist/assets/imagens/Torre_de_agua.jpg",
     titulo: "Qualidade e Controle na Sua Água",
     alt: "Imagem de tubulações para sistemas de torre de água ",
     texto: "Sua Água em Boas Mãos! Reservatórios elevados de alta performance. Da instalação à operação, oferecemos segurança, qualidade e a tranquilidade de ter o controle total sobre o seu recurso mais precioso.",
   },
   {
-    imagem: "../../imagens/Abrandador_01.jpg",
+    imagem: "../../../../dist/assets/imagens/Abrandador_01.jpg",
     titulo: "Abrandadores",
     alt: "Sistema de tratamento, Abrandador",
     texto: "Nossos abrandadores eliminam minerais como cálcio e magnésio, garantindo a proteção dos seus equipamentos e a eficiência máxima da sua operação.",
   },
   {
-    imagem: "../../imagens/filtro_carvao_ativado_01.jpg",
+    imagem: "../../../../dist/assets/imagens/filtro_carvao_ativado_01.jpg",
     titulo: "Filtro de carvão ativado",
     alt: "Conjunto de cilindros de carvão ativado",
     texto: "O filtro de carvão ativado é a solução ideal para melhorar a qualidade sensorial da água. Ele atua na remoção de odores, sabores e cores indesejadas, além de eliminar o cloro e outros contaminantes orgânicos.",

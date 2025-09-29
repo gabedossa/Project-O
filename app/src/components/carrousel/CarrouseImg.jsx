@@ -3,8 +3,8 @@ import "./CarrouselImg.css";
 
 /** Se as imagens estiverem em /public/imagens/... */
 const imagens = [
-  { src: "../../../Imagens/OrionCuiabaFrente.png", title: "Cuiabá" },
-  { src: "../../../Imagens/Orion_Caceres.png",     title: "Cáceres" },
+  { src: "../../../../dist/assets/Imagens/OrionCuiabaFrente.png", title: "Cuiabá" },
+  { src: "../../../../dist/assets/Imagens/Orion_Caceres.png",     title: "Cáceres" },
 ];
 
 export default function CarrouselImg({

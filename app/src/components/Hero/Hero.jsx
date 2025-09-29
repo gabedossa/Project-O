@@ -20,10 +20,10 @@ export default function Hero() {
             </p>
             <div style={{ display: "flex", gap: 12 }}>
               <div className="whatsBtn">
-                <Button icon={'../../imagens/icones/claro/casaBranco.svg'} link={'/servicos'} title='Nossos Serviços' ></Button>
+                <Button icon={'../../../../dist/assets/imagens/icones/claro/casaBranco.svg'} link={'/servicos'} title='Nossos Serviços' ></Button>
               </div>
               <div className="whatsBtn">
-                <Button icon={'../../imagens/icones/claro/whatsappbranco.svg'} link={'https://wa.me/+556530231011'} title='WhatsApp' ></Button>
+                <Button icon={'../../../../dist/assets/imagens/icones/claro/whatsappbranco.svg'} link={'https://wa.me/+556530231011'} title='WhatsApp' ></Button>
               </div>
             </div>
           </div>
