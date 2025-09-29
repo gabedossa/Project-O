@@ -22,7 +22,7 @@ export default function Footer() {
           <div>
             <h4>Redes Sociais</h4>
             <div className="redeIconContainer">
-            <div className='socialIcon'><a href='https://www.facebook.com/orionaguaquimica?locale=pt_BR'><img src='../../../../dist/assets/Imagens/icones/Facebook.svg'/></a></div>
+            <div className='socialIcon'><a href='https://www.facebook.com/orionaguaquimica?locale=pt_BR'><img src='../../../../dist/assets/Imagens/icones/face.png'/></a></div>
             <div className='socialIcon'><a href='https://www.instagram.com/orionaguaquimica/'><img src='../../../../dist/assets/Imagens/icones/instagram.svg' /></a></div>
             </div>
           </div>

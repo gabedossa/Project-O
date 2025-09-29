@@ -13,7 +13,9 @@ export default function Header() {
     <header className="header" role="banner">
       <div className="container inner">
         <Link to="/" className="brand" aria-label="Orion - Início">
-          <span className="logo" aria-hidden="true"></span>
+          <span className="logo" aria-hidden="true">
+            <img src='../../../../dist/assets/imagens/Logo.png'/>
+          </span>
         </Link>
 
         {/* Botão Hamburguer (só visível em mobile) */}
@@ -36,7 +38,7 @@ export default function Header() {
         </nav>
 
         <Button 
-          icon={'../../../../dist/assets/imagens/icones/claro/whatsappbranco.svg'} 
+          icon={'../../../../dist/assets/imagens/icones/whats.png'} 
           link={'https://wa.me/+556530231011'} 
           title="Whatsapp" 
         />
