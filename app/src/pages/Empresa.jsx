@@ -35,21 +35,21 @@ export default function Empresa() {
             <SectionTitle SectionTitle="Soluções"></SectionTitle>
           <div className="flexContainerSoluction">
             <SectionSolucaoCard
-              imagem={"../../../../dist/assets/imagens/img12.jpg"}
+              imagem={"/imagens/img12.jpg"}
               titulo={"Consultoria e Treinamento."}
               texto={
                 "É o acompanhamento da ETA e/ou ETE, feito por profissionais especializados (Engenheiro químico e/ou Engenheiro Sanitarista e Ambiental), com o objetivo de diagnosticar e indicar a solução e otimização para o sistema, além de capacitar os operadores das estações com cursos rápidos e práticos."
               }
             />
             <SectionSolucaoCard
-              imagem={"../../../../dist/assets/imagens/img2.jpg"}
+              imagem={"/imagens/img2.jpg"}
               titulo={"Licenciamento Ambiental."}
               texto={
                 "É o procedimento administrativo pelo qual o órgão ambiental competente emite as licenças para localização, instalação, ampliação e operação de atividades que utilizam de recursos naturais e/ou possam degradar o meio ambiente. As licenças destacadas anteriormente são as mais solicitadas."
               }
             />
             <SectionSolucaoCard
-              imagem={"../../../../dist/assets/imagens/img3.jpg"}
+              imagem={"imagens/img3.jpg"}
               titulo={"Instalação e Recuperação de Filtros."}
               texto={
                 "É a solução ideal para tratamento de água em qualquer que seja a sua finalidade desde o consumo humano até processos industriais. Os filtros são constituídos de material resistente a corrosão e intempéries possibilitando que tenham longa vida útil."
