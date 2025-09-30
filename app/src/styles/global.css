@@ -336,10 +336,20 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1a1a1a;
+    background-color: #eaeaea;
     transform: translateY(100%);
     transition: transform 0.3s ease-in-out;
     z-index: 9;
+  }
+
+  .Orion_Nav_title{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #00c2d1;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
   }
 
   .nav.nav--open {
@@ -349,7 +359,7 @@ a {
   .nav a {
     font-size: 1.5rem;
     padding: 0.5rem 0;
-    color: #fff;
+    color: #333;
     text-decoration: none;
   }
 

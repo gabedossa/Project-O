@@ -34,6 +34,9 @@ export default function Header() {
           <NavLink to="/empresa" onClick={() => setMenuOpen(false)}>Empresa</NavLink>
           <NavLink to="/servicos" onClick={() => setMenuOpen(false)}>Serviços</NavLink>
           <NavLink to="/contato" onClick={() => setMenuOpen(false)}>Contato</NavLink>
+          <div className='Orion_Nav_title'>
+            <p>© {new Date().getFullYear()} Orion – Todos os direitos reservados.</p>
+          </div>
         </nav>
 
         <Button 
