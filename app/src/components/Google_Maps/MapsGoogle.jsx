@@ -4,7 +4,7 @@ export default function MapCardGoogle({local}) {
 
   return (
         <div className="mapaLocal">
-          <APIProvider apiKey="AIzaSyAjrwIOgTaEJX2CmzUwVdqu-ha-nudohw0">
+          <APIProvider apiKey="AIzaSyAH3VcxH1F-NS--kxRkhNzp48Tg1tYKa_o">
             <Map 
             center={local} 
             zoom={10} 
