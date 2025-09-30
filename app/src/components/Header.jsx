@@ -14,7 +14,6 @@ export default function Header() {
       <div className="container inner">
         <Link to="/" className="brand" aria-label="Orion - Início">
           <span className="logo" aria-hidden="true">
-            <img src='./imagens/Logo.webp'/>
           </span>
         </Link>
 
