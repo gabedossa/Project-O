@@ -95,7 +95,7 @@ main {
   width: 160px;
   height: 40px;
 
-  background-image: url("../../Imagens/Logo.webp");
+  background-image: url("../../public/imagens/Logo.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;

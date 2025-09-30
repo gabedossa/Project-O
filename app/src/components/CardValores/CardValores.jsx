@@ -5,7 +5,7 @@ export default function CardValores() {
     <div className="valoresContainer">
       <div className="sectionContainer">
         <div className="alignTitle">
-          <img src="/imagens/Icones/ballot.svg"></img>
+          <img src="/imagens/icones/ballot.svg"></img>
           <h2 className="title">Missão</h2>
         </div>
         <p>
@@ -17,7 +17,7 @@ export default function CardValores() {
       </div>
       <div className="sectionContainer">
         <div className="alignTitle">
-          <img src="/imagens/Icones/olho.svg"></img>
+          <img src="/imagens/icones/olho.svg"></img>
           <h2 className="title">Visão</h2>
         </div>
         <p>

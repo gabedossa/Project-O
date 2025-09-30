@@ -39,7 +39,7 @@
 .mainBg{
     width: 100%;
     position: relative;
-    background-image: url('../../Imagens/img6.jpg');
+    background-image: url('../../public/imagens/img6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

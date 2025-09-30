@@ -37,7 +37,7 @@ export default function Header() {
         </nav>
 
         <Button 
-          icon={'./imagens/icones/whats.png'} 
+          icon={'/imagens/icones/whats.png'} 
           link={'https://wa.me/+556530231011'} 
           title="Whatsapp" 
         />

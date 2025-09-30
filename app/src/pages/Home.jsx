@@ -4,30 +4,34 @@ import ServiceCard from "../components/ServiceCard.jsx";
 import MapCard from "../components/MapCard/MapCard.jsx";
 import CardInfo from "../components/Card_info/CardInfo.jsx";
 import SectionTitle from "../components/SectionTitle/SectionTitle.jsx";
+import waterIcon from "/imagens/icones/water.svg"
+import naturezaIcon from "/imagens/icones/natureza.svg"
+import reversoIcon from "/imagens/icones/reverso.svg"
+import construcaoIcon from "/imagens/icones/construcao.svg"
 
 export default function Home() {
   let textInfo = [{
-    imgInfo: `../imagens/icones/water.svg`,
+    imgInfo: `${waterIcon}`,
     title: 'Estações de Tratamento de Água - ETA',
     info: 'As Estações de Tratamento de Água (ETAs) têm como objetivo transformar a água bruta em água potável, própria para o consumo humano. O processo envolve etapas de clarificação, filtração e desinfecção, garantindo qualidade, segurança e conformidade com as normas de saúde.',
   },
   {
-    imgInfo: `../imagens/icones/natureza.svg`,
+    imgInfo: `${naturezaIcon}`,
     title: 'Estações de Tratamento de Efluentes – ETE',
     info:'A estação de tratamento de efluentes existem para reduzir a quantidade de poluentes de um efluente. No país, existem diversas regiões com estação de tratamento de efluentes.'
   },
   {
-    imgInfo: `../imagens/icones/reverso.svg`,
+    imgInfo: `${reversoIcon}`,
     title: 'Osmose Reversa/Inversa',
     info: 'A osmose reversa é uma tecnologia de purificação de água que utiliza membranas semipermeáveis para remover sais, impurezas e contaminantes. É amplamente aplicada em indústrias e sistemas de reuso, garantindo água de alta qualidade e sustentabilidade no processo.'
   },
   {
-    imgInfo: `../imagens/icones/construcao.svg`,
+    imgInfo: `${construcaoIcon}`,
     title: 'Laboratorial',
     info: 'Nos laboratórios analíticos, o controle de qualidade da água é fundamental. Utilizada como reagente químico, ela deve conter uma quantidade mínima de contaminantes. Melhore a qualidade da água que sua família está bebendo.'
   },
   {
-    imgInfo: `../imagens/icones/construcao.svg`,
+    imgInfo: `${construcaoIcon}`,
     title: 'Industrial',
     info: 'Nem sempre uma água considerada potável para consumo humano e animal pode servir para fins industriais, o que requer uma atenção maior.'
   },

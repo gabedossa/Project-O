@@ -3,7 +3,7 @@ import "./CarrouselImg.css";
 
 /** Se as imagens estiverem em /public/imagens/... */
 const imagens = [
-  { src: "/imagens/faixada_cuiaba.jpg", title: "Cuiabá" },
+  { src: "/imagens/Faixada_cuiaba.jpg", title: "Cuiabá" },
   { src: "/imagens/faixada_caceres.png",     title: "Cáceres" },
 ];
 
