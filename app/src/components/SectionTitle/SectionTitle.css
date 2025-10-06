@@ -1,7 +1,22 @@
-.titleContainer{
-    height: 50px;
-    width: 100%;
-    color: #00736f;
-    font-size: 18px;
-    margin-top: 10px;
+.titleContainer {
+  height: 50px;
+  width: 100%;
+  color: var(--primary);
+  font-size: 18px;
+}
+
+.titleContainer h2 {
+  height: 50px;
+  width: 100%;
+  color: var(--primary);
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+.decoration_underline {
+  width: 45px;
+  height: 5px;
+  margin-top: -32px;
+  margin-bottom: 25px;
+  background-color: var(--primary);
 }
