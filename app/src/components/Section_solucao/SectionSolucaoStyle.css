@@ -2,14 +2,14 @@
 .containerSolucoes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
 }
 
 /* Card individual — flex column para organizar conteúdo */
 .solucoes-card {
+  height: 500px;
+  width: 100%; 
+  margin-left: 16px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -17,8 +17,10 @@
   display: flex;
   flex-direction: column;
   padding: 16px;
-  width: 100%; /* Garante que ocupe toda a largura do item da grade */
-  height: 100%;
+}
+
+.solucoes-card:nth-child(1) {
+  margin-left: 0px;
 }
 
 /* Imagem dentro do card */
