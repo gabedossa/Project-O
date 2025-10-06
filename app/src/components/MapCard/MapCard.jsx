@@ -2,8 +2,8 @@ import MapCardOSM from "./MapCardOSM";
 import "./MapCard.css";
 
 export default function MapCard() {
-  const Cuiaba = { lat: -15.6053, lng: -56.0985 };
-  const Caceres = { lat: -16.0751, lng: -57.6867 };
+  const Cuiaba = { lat:  -15.58943 , lng:  -56.10488 };
+  const Caceres = { lat: -16.07725, lng:  -57.67104};
 
   return (
     <div className="mapCard">
