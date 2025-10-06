@@ -211,7 +211,7 @@ a {
 .footer {
   background: var(--primary-700);
   color: #cfe9ec;
-  padding: 24px 0 36px;
+  padding: 24px 0 0px;
 }
 .footer .cols {
   display: grid;
@@ -226,6 +226,17 @@ a {
   display: block;
   margin-top: 12px;
   opacity: 0.8;
+}
+
+.footerEnd{
+  width: 100%;
+  padding-bottom: 2px;
+  text-align: center;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+
+  background-color: var(--primary);
 }
 
 .bottom {

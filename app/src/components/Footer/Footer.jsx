@@ -7,7 +7,6 @@ export default function Footer() {
           <div>
             <h3 style={{marginTop:0}}>Orion Água e Química</h3>
             <p>Projetos e soluções em tratamento de água e efluentes, reuso e sustentabilidade.</p>
-            <small>© {new Date().getFullYear()} Orion – Todos os direitos reservados.</small>
           </div>
           <div>
             <h4>Atendimento</h4>
@@ -28,6 +27,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
+        <div className="footerEnd">
+        <small>© {new Date().getFullYear()} Orion – Todos os direitos reservados.</small>
+        </div>
     </footer>
   )
 }
