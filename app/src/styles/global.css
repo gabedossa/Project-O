@@ -13,7 +13,7 @@
   --text: #0b3640;
   --muted: #5f7b82;
 
-  --bg: #ffffff;
+  --bg: #f1f4ff;
   --bg-alt: #f6f9fa;
   --surface: #ffffff;
   --surface-2: #ecf7f9;
@@ -51,7 +51,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: var(--text);
 }
 
 .app-wrap {
